@@ -1,6 +1,6 @@
 If a non-numeral character is entered, the program will return "undefined"
 - Input example: A1024
-- Expected Output: undefined
+- Expected Output: "Please enter a number"
 
 If a numeric value greater than 3,999 is input, the program will return "undefined"
 - Input example: 4,000
