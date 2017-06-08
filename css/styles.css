@@ -1,0 +1,19 @@
+body {
+  text-align: center;
+}
+
+.panel {
+  font-size: 28px;
+  width: 20%;
+  margin: auto;
+  display: block;
+ }
+
+.jumbotron{
+  background-image: url(https://s-media-cache-ak0.pinimg.com/originals/54/10/76/54107660e455f3b14a4e48b8211c20b7.jpg);
+  color: #e6ffff;
+}
+
+ button {
+   margin: 20px;
+ }

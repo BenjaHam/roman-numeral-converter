@@ -1,18 +1,14 @@
-If a non-numeral character is entered, the program will return "undefined"
+If a non-numeral character is entered, the program will return "Please enter a number"
 - Input example: A1024
 - Expected Output: "Please enter a number"
 
-If a numeric value greater than 3,999 is input, the program will return "undefined"
+If a numeric value greater than 3,999 is input, the program will return "NaN"
 - Input example: 4,000
-- Expected Output: undefined
+- Expected Output: NaN
 
-If the a numeric value of 0 is input, the program will return "undefined"
+If the a numeric value of 0 is input, the program will return "NaN"
 - Input example: 0
-- Expected Output: undefined
-
-If the input numeral begins with one or more 0s, the program will remove the 0s and return the translated answer based solely on the numerals with a value equal to or greater than 1
-- Input example: 00438
-- Expected Output: CDXXXVIII
+- Expected Output: NaN
 
 The program will add the value of all of the Roman Numeral symbols.
 - Input example: 8
@@ -21,3 +17,7 @@ The program will add the value of all of the Roman Numeral symbols.
 The program will return subtractive Roman numeral conversion for digits "4" or "9"
 - Input example: 494
 - Expected Output: CDXCIV
+
+If the input numeral begins with one or more 0s, the program will remove the 0s and return the translated answer based solely on the numerals with a value equal to or greater than 1
+- Input example: 00438
+- Expected Output: CDXXXVIII
