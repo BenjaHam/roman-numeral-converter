@@ -3,7 +3,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     function convertToRN(number) {
-      if (number >= 4000) {
+      if (number >= 4000 || number < 1) {
         return NaN;
       } else {
         return number;
